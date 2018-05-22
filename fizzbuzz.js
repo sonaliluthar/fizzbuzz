@@ -1,5 +1,5 @@
 function fizzbuzz(numbers) {
-  var newnums = numbers.map(function(number) {
+  let newnums = numbers.map(function(number) {
     if (number % 15 == 0) {
       return "FizzBuzz";
     } else if (number % 5 == 0) {
